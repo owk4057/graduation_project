@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\시간">
+      <UniqueIdentifier>{e478ed8d-b852-4725-a32d-28c45ee1189c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\시뮬레이터">
+      <UniqueIdentifier>{77134de3-b0d3-4e0b-a20d-8f07454c32ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\관리기">
+      <UniqueIdentifier>{40e1e95e-0bbd-41aa-aa87-f065df4bba20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\다이얼로그_시뮬레이터">
+      <UniqueIdentifier>{92c3eeda-74cf-41ed-92db-e199195a48d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\다이얼로그_결과출력">
+      <UniqueIdentifier>{deb44b08-6cb7-4b4e-a2e6-a3754b91a3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\다이얼로그_스트림">
+      <UniqueIdentifier>{49a36f97-5276-4840-b3fb-76c591399bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\다이얼로그_이벤트타입">
+      <UniqueIdentifier>{af88b6c0-eafd-45d0-a091-4a2c49e60183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\다이얼로그_쿼리">
+      <UniqueIdentifier>{866d73da-b44c-4002-aa72-6e1dcddf32a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\메인">
+      <UniqueIdentifier>{c439c2dd-ff6e-4280-84e2-7bf45196c190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기타">
+      <UniqueIdentifier>{43f9c4f3-82fe-4b20-9e50-bdcd34b6b5ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QueryPrintDlg.h">
+      <Filter>소스 파일\다이얼로그_결과출력</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamResultDlg.h">
+      <Filter>소스 파일\다이얼로그_결과출력</Filter>
+    </ClInclude>
+    <ClInclude Include="AggregationFuncs.h">
+      <Filter>소스 파일\관리기</Filter>
+    </ClInclude>
+    <ClInclude Include="Extractor.h">
+      <Filter>소스 파일\관리기</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>소스 파일\관리기</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamCreateDlg.h">
+      <Filter>소스 파일\다이얼로그_스트림</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamListDlg.h">
+      <Filter>소스 파일\다이얼로그_스트림</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetCreateDlg.h">
+      <Filter>소스 파일\다이얼로그_시뮬레이터</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTypeCreateDlg.h">
+      <Filter>소스 파일\다이얼로그_이벤트타입</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTypeListDlg.h">
+      <Filter>소스 파일\다이얼로그_이벤트타입</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterQueryCreateDlg.h">
+      <Filter>소스 파일\다이얼로그_쿼리</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupQueryCreateDlg.h">
+      <Filter>소스 파일\다이얼로그_쿼리</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryListDlg.h">
+      <Filter>소스 파일\다이얼로그_쿼리</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTime.h">
+      <Filter>소스 파일\시간</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>소스 파일\시뮬레이터</Filter>
+    </ClInclude>
+    <ClInclude Include="simul.h">
+      <Filter>소스 파일\시뮬레이터</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication2Dlg.h">
+      <Filter>소스 파일\메인</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication2.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\기타</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningCreate.h">
+      <Filter>소스 파일\다이얼로그_결과출력</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StreamResultDlg.cpp">
+      <Filter>소스 파일\다이얼로그_결과출력</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTime.cpp">
+      <Filter>소스 파일\시간</Filter>
+    </ClCompile>
+    <ClCompile Include="simul.cpp">
+      <Filter>소스 파일\시뮬레이터</Filter>
+    </ClCompile>
+    <ClCompile Include="Extractor.cpp">
+      <Filter>소스 파일\관리기</Filter>
+    </ClCompile>
+    <ClCompile Include="AggregationFuncs.cpp">
+      <Filter>소스 파일\관리기</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>소스 파일\관리기</Filter>
+    </ClCompile>
+    <ClCompile Include="FilterQueryCreateDlg.cpp">
+      <Filter>소스 파일\다이얼로그_쿼리</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupQueryCreateDlg.cpp">
+      <Filter>소스 파일\다이얼로그_쿼리</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryListDlg.cpp">
+      <Filter>소스 파일\다이얼로그_쿼리</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamCreateDlg.cpp">
+      <Filter>소스 파일\다이얼로그_스트림</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamListDlg.cpp">
+      <Filter>소스 파일\다이얼로그_스트림</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTypeCreateDlg.cpp">
+      <Filter>소스 파일\다이얼로그_이벤트타입</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTypeListDlg.cpp">
+      <Filter>소스 파일\다이얼로그_이벤트타입</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetCreateDlg.cpp">
+      <Filter>소스 파일\다이얼로그_시뮬레이터</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryPrintDlg.cpp">
+      <Filter>소스 파일\다이얼로그_결과출력</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication2Dlg.cpp">
+      <Filter>소스 파일\메인</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication2.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningCreate.cpp">
+      <Filter>소스 파일\다이얼로그_결과출력</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication2.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCApplication2.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCApplication2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
